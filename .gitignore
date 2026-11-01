@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Databases and personal attendance data
+*.db
+*.sqlite
+*.sqlite3
+
+# Personal data and uploaded images
+uploads/
+student_images/
+dataset/
+
+# Editor / system files
+.vscode/
+.DS_Store
+Thumbs.db
